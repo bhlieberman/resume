@@ -1,0 +1,150 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Ben Lieberman",
+    "label": "Software Developer",
+    "image": "",
+    "email": "bhlieberman93@gmail.com",
+    "phone": "(505) 481-9045",
+    "summary": "Ben is a self-taught programmer/full-stack developer, Marine Corps veteran, and published novelist. He has a wide range of skills and experience that make him a dynamic addition to any team.",
+    "location": {
+      "address": "301 Central Ave NE",
+      "postalCode": "NM 87102",
+      "city": "Albuquerque",
+      "countryCode": "US",
+      "region": "New Mexico"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ben-lieberman",
+        "url": "https://www.linkedin.com/in/ben-lieberman/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "New Mexico Administrative Office of District Attorneys",
+      "location": "Albuquerque, NM",
+      "description": "Providing IT support to the thirteen District Attorneys' offices in New Mexico",
+      "position": "IT Applications Developer",
+      "url": "https://www.nmdas.com/nmdaa/",
+      "startDate": "2023-03-20",
+      "summary": "The AODA maintains New Mexico's Case Management System (CMS), proprietary software for use by the District Attorneys' offices in managing case loads.",
+      "highlights": [
+        "Performed critical API integration between AODA and the Administrative Office of the Courts using a simple Azure Function App and Queue.",
+        "Resolved long-standing open issues in current CMS.",
+        "Debugged and optimized SQL Server queries and stored procedures that are the backbone of CMS and a frequent source of errors."
+      ]
+    },
+    {
+      "name": "Cortex Analytics",
+      "location": "New York, NY (Remote)",
+      "description": "Healthcare analytics startup",
+      "position": "Associate Software Developer",
+      "url": "https://www.cortexanalytics.com",
+      "startDate": "2020-08-20",
+      "endDate": "2022-05-23",
+      "highlights": [
+        "Prototyped and directed development of backend infrastructure for a mobile application for caregiver engagement",
+        "Ported a risk adjustment algorithm written in SAS to Python",
+        "Contributed features to complex data analysis web application using Angular and RxJS"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Colorado Boulder",
+      "area": "International Affairs",
+      "studyType": "Bachelor",
+      "startDate": "2016-01-13",
+      "endDate": "2018-05-10"
+    },
+    {
+      "institution": "Code Fellows",
+      "area": "Software Development with Java",
+      "studyType": "Certificate",
+      "startDate": "2022-08-15",
+      "endDate": "2022-12-30"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Filthy Synecdoche",
+      "publisher": "Corona\\Samizdat Press",
+      "releaseDate": "2022-12-14",
+      "url": "https://www.coronasamizdat.com",
+      "summary": "A novel adapted from my experiences in and impressions of the Marine Corps."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "Typescript"
+      ]
+    },
+    {
+      "name": "Back-end development",
+      "level": "Intermediate",
+      "keywords": [
+        "Java",
+        "Clojure",
+        "Rust",
+        "Python",
+        "SQL Server"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Reading"
+    },
+    {
+      "name": "Writing"
+    },
+    {
+      "name": "Cinema"
+    }
+  ],
+  "projects": [
+    {
+      "name": "clj-baseball",
+      "description": "A port of the pybaseball project to Clojure",
+      "highlights": [
+        "Emphasizes the functional and data driven approach of Clojure in preference to the Pandas API of pybaseball"
+      ],
+      "keywords": [
+        "Clojure",
+        "Data analysis",
+        "Python"
+      ],
+      "startDate": "2022-11-07",
+      "url": "https://github.com/bhlieberman/clj-baseball",
+      "roles": [
+        "Developer",
+        "Maintainer"
+      ],
+      "type": "library"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

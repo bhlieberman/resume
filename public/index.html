@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+
+  <title>Ben Lieberman - CV</title>
+  <meta name="description" content="Ben is a self-taught programmer/full-stack developer, Marine Corps veteran, and published novelist. He has a wide range of skills and experience that make him a dynamic addition to any team.">
+
+  <meta property="og:site_name" content="Ben Lieberman">
+  <meta property="og:title" content="Software Developer">
+  <meta property="og:description" content="Ben is a self-taught programmer/full-stack developer, Marine Corps veteran, and published novelist. He has a wide range of skills and experience that make him a dynamic addition to any team.">
+
+
+
+  <style>
+  /*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* Variables */
+
+body {
+  --fg-color: black;
+  --bg-color: #FFFFFF;
+  --header-h1-fg-color: #FFFFFF;
+  --header-h2-fg-color: #F3F3F3;
+  --header-bg-color: #1866C3;
+  --link-color: #3061A5;
+  --seperator-color: #E2E2E2
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --fg-color: #D5D6D7;
+    --bg-color: #2C2C2C;
+    --header-h1-fg-color: #CFD0D1;
+    --header-h2-fg-color: #D5D6D7;
+    --header-bg-color: #1B1B1B;
+    --link-color: #70A1E5;
+    --seperator-color: #939393
+  }
+}
+
+/* Page CSS */
+
+body {
+  color: var(--fg-color);
+  background: var(--bg-color);
+  font-size: 0.9em;
+  font-family: 'Helvetica', 'Arial', 'Trebuchet MS', 'Verdana', sans-serif;
+}
+
+em {
+  color: #999;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+section {
+  margin-bottom: 2em;
+}
+
+blockquote {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.item {
+  break-inside: avoid;
+}
+
+header {
+  background: var(--header-bg-color);
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+header h1 {
+  color: var(--header-h1-fg-color);
+  max-width: 772px;
+  margin: 0 auto;
+}
+
+header h2 {
+  color: var(--header-h2-fg-color);
+  font-size: 1em;
+  max-width: 772px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 772px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+#basics {
+  margin-bottom: 10px;
+  border-bottom: 1px var(--seperator-color) solid;
+}
+#basics h3 {
+  margin-bottom: 10px;
+}
+
+.contact h3 {
+  padding-bottom: 10px;
+}
+
+.split {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.split strong {
+  margin-right: 2em;
+}
+
+.website,
+.email,
+.phone {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+#profiles {
+  overflow: hidden;
+}
+
+#profiles .item {
+  width: 50%;
+}
+
+.username{
+  margin-top: 10px;
+}
+
+.work_date,
+.work_position,
+.work_website,
+.institution,
+.study_date,
+.qualification {
+  margin-bottom: 10px;
+  width: 30%;
+}
+
+.courses {
+  clear: both;
+}
+
+.dissertation {
+  margin-top: 10px;
+}
+
+#work,
+#volunteer {
+  padding-bottom: 5px;
+  border-bottom: 1px var(--seperator-color) solid;
+}
+
+#work .item,
+#volunteer .item {
+  margin: 25px 0;
+}
+
+#skills {
+  margin-bottom: 10px;
+  border-bottom: 1px var(--seperator-color) solid;
+  padding-bottom: 5px;
+}
+
+#skills .item,
+#languages .item {
+  margin: 0 0 25px 0;
+}
+
+#interests .item {
+  margin-bottom: 25px;
+}
+
+#skills {
+  overflow: hidden;
+}
+
+#languages .item,
+#interests .item,
+#skills .item {
+  width: 50%;
+}
+
+#references,
+#interests {
+  clear: both;
+}
+
+  </style>
+
+  </head>
+  <body>
+
+  <header>
+  <h1>Ben Lieberman</h1>
+  <h2>Software Developer</h2>
+  </header>
+
+  <div id="content" class="container">
+  <section id="basics">
+    <div class="contact">
+    <h3>Contact</h3>
+    <div class="split">
+    <div class="email">
+      <strong>Email</strong>
+      <a href="mailto:bhlieberman93@gmail.com">bhlieberman93@gmail.com</a>
+    </div>
+    <div class="phone">
+      <strong>Phone</strong>
+      <a href="tel:(505) 481-9045">(505) 481-9045</a>
+    </div>
+    </div>
+    </div>
+    <div class="summary">
+      <h3>About</h3>
+      <p>Ben is a self-taught programmer/full-stack developer, Marine Corps veteran, and published novelist. He has a wide range of skills and experience that make him a dynamic addition to any team.</p>
+    </div>
+    <section id="profiles" class="split">
+      <div class="item">
+        <strong class="network">
+          LinkedIn
+        </strong>
+        <div>
+          <a href="https://www.linkedin.com/in/ben-lieberman/">
+              ben-lieberman
+          </a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="work">
+    <h2>Work Experience</h2>
+    <div class="item">
+      <h3 class="work_name">
+        New Mexico Administrative Office of District Attorneys
+      </h3>
+
+      <div class="split">
+      <div class="work_position">
+        IT Applications Developer
+      </div>
+
+      <div class="work_date">
+        <span class="startDate">
+          <time datetime="2023-03-20T00:00:00.000Z">Mar 2023</time>
+        </span>
+        <span class="endDate">
+          - Present
+        </span>
+      </div>
+
+      <div class="work_website">
+        <a href="https://www.nmdas.com/nmdaa/">https://www.nmdas.com/nmdaa/</a>
+      </div>
+      </div>
+
+      <div class="summary">
+        <p>The AODA maintains New Mexico&#39;s Case Management System (CMS), proprietary software for use by the District Attorneys&#39; offices in managing case loads.</p>
+      </div>
+      <ul class="highlights">
+        <li>Performed critical API integration between AODA and the Administrative Office of the Courts using a simple Azure Function App and Queue.</li>
+        <li>Resolved long-standing open issues in current CMS.</li>
+        <li>Debugged and optimized SQL Server queries and stored procedures that are the backbone of CMS and a frequent source of errors.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <h3 class="work_name">
+        Cortex Analytics
+      </h3>
+
+      <div class="split">
+      <div class="work_position">
+        Associate Software Developer
+      </div>
+
+      <div class="work_date">
+        <span class="startDate">
+          <time datetime="2020-08-20T00:00:00.000Z">Aug 2020</time>
+        </span>
+        <span class="endDate">
+          - <time datetime="2022-05-23T00:00:00.000Z">May 2022</time>
+        </span>
+      </div>
+
+      <div class="work_website">
+        <a href="https://www.cortexanalytics.com">https://www.cortexanalytics.com</a>
+      </div>
+      </div>
+
+      <ul class="highlights">
+        <li>Prototyped and directed development of backend infrastructure for a mobile application for caregiver engagement</li>
+        <li>Ported a risk adjustment algorithm written in SAS to Python</li>
+        <li>Contributed features to complex data analysis web application using Angular and RxJS</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="item">
+
+      <div class="split">
+      <div class="institution">
+        University of Colorado Boulder
+      </div>
+
+      <div class="study_date">
+        <span class="startDate">
+          <time datetime="2016-01-13T00:00:00.000Z">Jan 2016</time>
+        </span>
+        <span class="endDate">
+          - <time datetime="2018-05-10T00:00:00.000Z">May 2018</time>
+        </span>
+      </div>
+
+      </div>
+
+
+
+    </div>
+    <div class="item">
+
+      <div class="split">
+      <div class="institution">
+        Code Fellows
+      </div>
+
+      <div class="study_date">
+        <span class="startDate">
+          <time datetime="2022-08-15T00:00:00.000Z">Aug 2022</time>
+        </span>
+        <span class="endDate">
+          - <time datetime="2022-12-30T00:00:00.000Z">Dec 2022</time>
+        </span>
+      </div>
+
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="item">
+      <div class="name">
+        Web Development
+      </div>
+      <div class="level">
+        <em>Intermediate</em>
+      </div>
+      <ul class="keywords">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Javascript</li>
+        <li>Typescript</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="name">
+        Back-end development
+      </div>
+      <div class="level">
+        <em>Intermediate</em>
+      </div>
+      <ul class="keywords">
+        <li>Java</li>
+        <li>Clojure</li>
+        <li>Rust</li>
+        <li>Python</li>
+        <li>SQL Server</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="languages">
+    <h2>Languages</h2>
+    <div class="item">
+      <div class="language">
+        English
+      </div>
+      <div class="level">
+        <em>Native speaker</em>
+      </div>
+    </div>
+    <div class="item">
+      <div class="language">
+        French
+      </div>
+      <div class="level">
+        <em>Intermediate</em>
+      </div>
+    </div>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <div class="item">
+      <div class="name">
+        Reading
+      </div>
+    </div>
+    <div class="item">
+      <div class="name">
+        Writing
+      </div>
+    </div>
+    <div class="item">
+      <div class="name">
+        Cinema
+      </div>
+    </div>
+  </section>
+
+
+  </div>
+
+  <script>
+    console.log('Theme made with 💕 using JSON Resume and Handlebars!\nhttps://github.com/jsonresume/jsonresume-theme-class')
+  </script>
+  </body>
+</html>
